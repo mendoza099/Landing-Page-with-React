@@ -1,4 +1,6 @@
 import React from "react";
+import Card from "./card";
+import Footer from "./footer";
 import Jumbotron from "./jumborom";
 
 //include images into your bundle
@@ -10,6 +12,10 @@ const Home = () => {
 		<>
 			<Navbar />
 			<Jumbotron />
+			<div>
+			<Card/><Card/><Card/><Card/>
+			</div>
+			<Footer/>
 		</>
 	);
 };

@@ -30,17 +30,22 @@ const Navbar = () => {
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" href="#">
-									Features
+									About
 								</a>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" href="#">
-									Pricing
+									Service
+								</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="#">
+									Contact
 								</a>
 							</li>
 						</ul>
 						<span className="navbar-text">
-							Navbar text with an inline element
+							Start Bootstrap
 						</span>
 					</div>
 				</div>
