@@ -12,7 +12,12 @@ const Home = () => {
 		<>
 			<Navbar />
 			<Jumbotron />
-			<Card />
+			<div>
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
 			<Footer />
 		</>
 	);
