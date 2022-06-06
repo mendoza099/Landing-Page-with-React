@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "./card";
-import Footer from "./footer";
-import Jumbotron from "./jumborom";
+import Card from "./card.jsx";
+import Footer from "./footer.jsx";
+import Jumbotron from "./jumbotrom.jsx";
 
 //include images into your bundle
-import Navbar from "./navbar";
+import Navbar from "./navbar.jsx";
 
 //create your first component
 const Home = () => {
@@ -12,10 +12,8 @@ const Home = () => {
 		<>
 			<Navbar />
 			<Jumbotron />
-			<div>
-			<Card/><Card/><Card/><Card/>
-			</div>
-			<Footer/>
+			<Card />
+			<Footer />
 		</>
 	);
 };
